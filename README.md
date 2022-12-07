@@ -1,1 +1,3 @@
 # Final_Airport_Simulation_Project_JMD
+
+In this project, I created an airport simulator. In this simulator, new planes are continuously generated at random, with random distances away from the airport, and added to a Queue. Each plane's distance from the airport is continuously tracked and updated. When a plane reaches the airport, it is moved into another queue and then added to a runway if there is a runway available. If a runway is not available at the time a plane reaches the airport, it remains in the waiting queue until a runway is cleared. The plane will then land in the cleared runway. This process is repeated until stopped by the user.
